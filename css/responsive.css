@@ -7,7 +7,13 @@
     .container {
         padding: 0 60px;
     }
+
+    .img_content {
+        padding: 2rem 0;
+    }
 }
+
+/* 900px */
 
 @media(max-width: 900px) {
     html {
@@ -55,5 +61,13 @@
         top: 0;
         left: 90%;
         margin: 25px;
+    }
+}
+
+/* 768px */
+
+@media(max-width: 768px) {
+    .sp_content {
+        grid-template-columns: repeat(1, 1fr);
     }
 }

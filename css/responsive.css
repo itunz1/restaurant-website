@@ -1,0 +1,59 @@
+/* Large screen size 1070px */
+@media(max-width: 1070px) {
+    html {
+        font-size: 60%;
+    }
+
+    .container {
+        padding: 0 60px;
+    }
+}
+
+@media(max-width: 900px) {
+    html {
+        font-size: 55%;
+    }
+
+    .container {
+        padding: 0 40px;
+    }
+
+    .navbar nav {
+        flex-direction: column;
+        position: fixed;
+        min-width: 100%;
+        min-height: 60vh;
+        top: 0;
+        right: 100%;
+        background: #000;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.5s ease-in-out;
+    }
+
+    nav.active {
+        right: 0%;
+        transition: all 1s ease-in;
+    }
+
+    .navbar nav li {
+        margin: 2rem 4rem;
+    }
+
+    .navbar nav li a {
+        font-size: 1.4rem;
+        color: var(--white_color);
+        position: relative;
+    }
+
+    .btn {
+        display: block;
+    }
+
+    .close-btn {
+        position: absolute;
+        top: 0;
+        left: 90%;
+        margin: 25px;
+    }
+}

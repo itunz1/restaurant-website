@@ -35,6 +35,17 @@ a {
     padding: 0 80px;
 }
 
+.main_heading {
+    font-size: 4rem;
+    font-family: var(--righteous);
+}
+
+.normal_heading {
+    font-size: 2rem;
+    font-family: var(--righteous);
+    color: var(--white_color);
+}
+
 /* Header */
 
 header {
@@ -159,6 +170,7 @@ header {
 .headings h3 {
     font-size: 2rem;
     font-family: var(--unbuntu);
+    color: var(--primary_color);
 }
 
 .imgs_content {
@@ -233,4 +245,51 @@ header {
 
 .over_img a {
     color: var(--white_color);
+}
+
+/* Reservation Section */
+
+#reservation_tbl {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/formbg.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+    padding: 6rem 0;
+}
+
+.form_data {
+    background: var(--primary_color);
+    padding: 4rem;
+    width: 50%;
+    color: var(--white_color);
+}
+
+.form_data form {
+    padding: 4rem 0;
+}
+
+.form_data form input {
+    width: 49.5%;
+    padding: 0.7rem 0.4rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.form_data form textarea {
+    width: 100%;
+    padding: 1rem 0.4rem;
+}
+
+.form_data button {
+    display: inline-block;
+    width: 100%;
+    border: none;
+    padding: 0.9rem 0;
+    margin-top: 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5 ease-in-out;
+}
+
+.form_data button:hover {
+    background: #ccc;
 }

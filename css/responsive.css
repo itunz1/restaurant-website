@@ -11,6 +11,10 @@
     .img_content {
         padding: 2rem 0;
     }
+
+    .form_data {
+        width: 70%;
+    }
 }
 
 /* 900px */
@@ -69,5 +73,13 @@
 @media(max-width: 768px) {
     .sp_content {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .form_data {
+        width: 100%;
+    }
+
+    .form_data form input {
+        width: 100%;
     }
 }

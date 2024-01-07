@@ -326,6 +326,10 @@ header {
     margin: 6rem 0;
 }
 
+.cards img {
+    width: 100%;
+}
+
 #deal_today .card_content h4 {
     font-family: var(--unbuntu);
     font-size: 2rem;
@@ -336,3 +340,74 @@ header {
     color: var(--primary_color);
     font-weight: 600;
 }
+
+/* Food Lover Section */
+
+#food_lover {
+    padding: 10rem 0;
+    background: #f4f4f4;
+}
+
+.food_lover_container {
+    margin: 3rem 0;
+}
+
+.btn_container {
+    margin: 4rem 0;
+    width: 100%;
+    display: inline-block;
+    color: #000;
+    text-align: center;
+}
+
+.btn_container .btn-cat {
+    padding: 0.7rem 1.2rem;
+    cursor: pointer;
+    margin: 0 2rem;
+    border: 1px solid #ddd;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-cat:hover, .active_btn {
+    background: var(--primary_color);
+    color: var(--white_color);
+}
+
+.menu_items_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3rem;
+}
+
+.menu_items_container .img_cards {
+    border: 1px solid #ddd;
+    box-shadow: var(--bow-shadow);
+}
+
+.img_cards img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.img_cards img:hover {
+    transform: scale(1.1);
+}
+
+.img_cards p {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-family: var(--unbuntu);
+}
+
+.img_cards .price {
+    color: var(--primary_color);
+    font-size: 1.8rem;
+}
+

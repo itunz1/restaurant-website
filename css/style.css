@@ -38,12 +38,28 @@ a {
 .main_heading {
     font-size: 4rem;
     font-family: var(--righteous);
+    text-align: center;
+}
+
+.main_heading-1 {
+    font-size: 4rem;
+    font-family: var(--righteous);
+    text-align: center;
+    color: #000;
 }
 
 .normal_heading {
     font-size: 2rem;
     font-family: var(--righteous);
     color: var(--white_color);
+    text-align: center;
+}
+
+.normal_heading-1 {
+    font-size: 2rem;
+    font-family: var(--righteous);
+    color: var(--primary_color);
+    text-align: center;
 }
 
 /* Header */
@@ -292,4 +308,31 @@ header {
 
 .form_data button:hover {
     background: #ccc;
+}
+
+/* Deal Section */
+
+#deal_today {
+    padding: 10rem 0;
+    background: url('') no-repeat;
+}
+
+#deal_today .card_content {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#deal_today .cards {
+    margin: 6rem 0;
+}
+
+#deal_today .card_content h4 {
+    font-family: var(--unbuntu);
+    font-size: 2rem;
+}
+
+#deal_today .card_content .price {
+    font-size: 2rem;
+    color: var(--primary_color);
+    font-weight: 600;
 }

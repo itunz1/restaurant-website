@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
     <title>Resturant Website</title>
 </head>
 
@@ -123,7 +126,9 @@
                     <div class="img_right_side">
                         <img src="/img/meals.jpg" alt="Meals">
                         <div class="over_img">
-                            <a href="#"><h2>Menus</h2></a>
+                            <a href="#">
+                                <h2>Menus</h2>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -152,8 +157,43 @@
         </div>
     </div>
 
+    <!-- Deals Section -->
 
-    <script src="js/script.js"></script>
+    <div id="deal_today">
+        <div class="container swiper mySwiper">
+            <h3 class="normal_heading-1">Deal Today</h3>
+            <h2 class="main_heading">TODAY SPECIAL DISH</h2>
+            <div class="card_content swiper-wrapper">
+                <div class="cards swiper-slide">
+                    <img src="" alt="asdasd">
+                    <h4>Pring Veg & Pasta</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum distinctio dignissimos nihil consequuntur modi rem?
+                    </p>
+                    <p class="price">Only 25$</p>
+                </div>
+                <div class="cards swiper-slide">
+                    <img src="" alt="asdasd">
+                    <h4>Pring Veg & Pasta</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus eos nisi, explicabo dolore praesentium cum.
+                    </p>
+                    <p class="price">Only 25$</p>
+                </div>
+                <div class="cards swiper-slide">
+                    <img src="" alt="asdasd">
+                    <h4>Pring Veg & Pasta</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione magnam consequuntur fugit, sit corporis fuga.
+                    </p>
+                    <p class="price">Only 25$</p>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="js/script.js"></script>
 </body>
 
 </html>

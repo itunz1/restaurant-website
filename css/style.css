@@ -69,6 +69,7 @@ header {
     background-color: rgba(0, 0, 0, 0.6);
     position: fixed;
     padding: 1.5rem 0;
+    z-index: 100;
 }
 
 .logo img {

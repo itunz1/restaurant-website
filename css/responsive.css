@@ -86,7 +86,13 @@
     .menu_items_container {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .btn-cat {
+        margin: 1rem 1rem;  
+    }
 }
+
+/* 520px */
 
 @media(max-width: 520px) {
     .menu_items_container {

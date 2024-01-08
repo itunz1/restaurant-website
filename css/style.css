@@ -464,6 +464,45 @@ header {
     color: var(--primary_color);
 }
 
+/* Upcoming Events */
+
+#up_coming_events {
+    background: url('../img/prueba.png') no-repeat center/cover;
+    padding: 10rem 0;
+}
+
+#up_coming_events .events_card_container {
+    margin-top: 6rem;
+}
+
+.events_card {
+    border: 1px solid #ddd;
+    box-shadow: var(--bow-shadow);
+    margin: 4rem 0;
+}
+
+.events_card img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+}
+
+.event_content {
+    padding: 2rem;
+    text-align: justify;
+}
+
+.event_content p {
+    font-size: 1.2rem;
+    text-align: justify;
+    padding: 1.8rem 0;
+}
+
+.event_content a {
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    color: var(--primary_color);
+}
 
 
 

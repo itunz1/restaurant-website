@@ -139,3 +139,26 @@ function displayMenusItem(menuItem) {
     displayMenusItem = displayMenusItem.join("");
     sectionCenter.innerHTML = displayMenusItem;
 }
+
+// Static counter animation
+
+const counterEl = document.querySelectorAll(".num");
+
+counterEl.forEach((item) => {
+    item.innerText = "0";
+    incrementCounter();
+
+    function incrementCounter(){
+        let currentNum = +item.innerText;
+        const dataCeil = item.getAttribute("data-ceil");
+        const increment = dataCeil / 15;
+        currentNum = Math.ceil(currentNum + increment);
+
+        if(currentNum < dataCeil){
+            item.innerText = currentNum;
+            setTimeout(incrementCounter, 200)
+        }else {
+            item.innerHTML = dataCeil;
+        }
+    }
+})

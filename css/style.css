@@ -582,6 +582,61 @@ header {
     cursor: pointer;
 }
 
+/* Footer */
+
+#footer {
+    background: #212121;
+    padding: 4rem 0;
+    color: var(--white_color);
+    font-size: 1.3rem;
+}
+
+.footer_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+}
+
+.footer_container h2 {
+    padding-bottom: 3rem;
+    color: var(--primary_color);
+}
+
+.about_us img {
+    display: block;
+    object-fit: cover;
+    width: 50%;
+}
+
+.about_us p {
+    line-height: 1.8;
+    padding-bottom: 2rem;
+}
+
+.about_us a {
+    color: var(--primary_color);
+}
+
+.opening_hours {
+    line-height: 1.8;
+}
+
+.opening_hours .day, .email, .add {
+    color: var(--primary_color);
+}
+
+.opening_hours .day span {
+    color: var(--white_color);
+}
+
+footer {
+    background: #171717;
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 1.4rem;
+    color: var(--white_color);
+}
+
 
 
 

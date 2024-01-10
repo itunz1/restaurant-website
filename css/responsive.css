@@ -95,6 +95,10 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .chef_container {
+        flex-direction: column;
+    }
+
 }
 
 /* 520px */
@@ -107,4 +111,5 @@
     .counters {
         grid-template-columns: repeat(1, 1fr);
     }
+
 }

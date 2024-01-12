@@ -162,3 +162,23 @@ counterEl.forEach((item) => {
         }
     }
 })
+
+// sticky menus
+
+const navScroll = document.querySelector("header")
+
+window.addEventListener("scroll", function(){
+    if(this.document.documentElement.scrollTop > 500) {
+        navScroll.classList.add("sticky")
+    } else {
+        navScroll.classList.remove("sticky")
+    }
+})
+
+// Parallax effect
+
+const parallax = document.querySelector("#showcase");
+window.addEventListener("scroll", function() {
+    let offset = window.pageYOffset;
+    parallax.style.backgroundPositionY = offset * 0.7 + "px";
+})

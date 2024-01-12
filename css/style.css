@@ -71,6 +71,11 @@ header {
     position: fixed;
     padding: 1.5rem 0;
     z-index: 100;
+    transition: all 0.5s ease-in-out;
+}
+
+header.sticky {
+    background: #000;
 }
 
 .logo img {
@@ -149,6 +154,12 @@ header {
     justify-content: center;
     flex-direction: column;
     min-height: 100vh;
+}
+
+#showcase .content img {
+    display: block;
+    object-fit: cover;
+    width: 380px;
 }
 
 #showcase .content h2 {
